@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Rotator
+comment0.text=\r\n\ Clase\ que\ representa\ una\ part\u00EDcula\ que\ intercambia\ sus\ velocidades\ Vx\ y\ Vy\ en\ cada\ colisi\u00F3n.\r\n\ Hereda\ de\ la\ clase\ Particle.\r\n
+comment1.params=x\ y\ color\ isRed\ diameter\ speedX\ speedY\ originalX
+comment1.target=Rotator(int,\ int,\ java.lang.String,\ boolean,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ para\ crear\ una\ part\u00EDcula\ rotatoria.\r\n\ @param\ x\ \ \ \ \ \ \ \ \ Posici\u00F3n\ inicial\ en\ X\ (coordenada\ interna)\r\n\ @param\ y\ \ \ \ \ \ \ \ \ Posici\u00F3n\ inicial\ en\ Y\r\n\ @param\ color\ \ \ \ \ Color\ de\ la\ part\u00EDcula\r\n\ @param\ isRed\ \ \ \ \ Indica\ si\ es\ roja\r\n\ @param\ diameter\ \ Di\u00E1metro\ de\ la\ part\u00EDcula\r\n\ @param\ speedX\ \ \ \ Velocidad\ en\ eje\ X\r\n\ @param\ speedY\ \ \ \ Velocidad\ en\ eje\ Y\r\n\ @param\ originalX\ Coordenada\ X\ original\ (puede\ ser\ negativa)\r\n
+comment2.params=containerWidth\ containerHeight\ lineX
+comment2.target=void\ move(int,\ int,\ int)
+comment2.text=\r\n\ Mueve\ la\ part\u00EDcula\ intercambiando\ velocidades\ al\ colisionar.\r\n\ @param\ containerWidth\ \ Ancho\ del\ contenedor\r\n\ @param\ containerHeight\ Altura\ del\ contenedor\r\n\ @param\ lineX\ \ \ \ \ \ \ \ \ \ \ Posici\u00F3n\ de\ la\ l\u00EDnea\ divisoria\r\n
+comment3.params=containerWidth\ containerHeight\ lineX
+comment3.target=boolean\ checkCollision(int,\ int,\ int)
+comment3.text=\r\n\ Verifica\ si\ ocurrir\u00E1\ una\ colisi\u00F3n\ en\ el\ pr\u00F3ximo\ movimiento.\r\n\ @return\ true\ si\ hay\ colisi\u00F3n\ inminente\r\n
+comment4.params=
+comment4.target=void\ rotateVelocities()
+comment4.text=\r\n\ Intercambia\ las\ velocidades\ en\ X\ e\ Y\r\n
+numComments=5

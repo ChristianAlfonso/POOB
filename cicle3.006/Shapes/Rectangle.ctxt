@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ Clase\ que\ representa\ un\ rect\u00E1ngulo\ en\ un\ lienzo.\r\n\ Hereda\ de\ la\ clase\ `Figure`\ y\ a\u00F1ade\ funcionalidades\ para\ dibujar\ y\ borrar\ un\ rect\u00E1ngulo,\r\n\ as\u00ED\ como\ para\ obtener\ sus\ dimensiones.\r\n
+comment1.params=x\ y\ color\ height\ width
+comment1.target=Rectangle(int,\ int,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Constructor\ para\ crear\ un\ rect\u00E1ngulo\ con\ posici\u00F3n,\ color,\ altura\ y\ ancho\ espec\u00EDficos.\r\n\r\n\ @param\ x\ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ X.\r\n\ @param\ y\ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ Y.\r\n\ @param\ color\ \ El\ color\ del\ rect\u00E1ngulo.\r\n\ @param\ height\ La\ altura\ del\ rect\u00E1ngulo.\r\n\ @param\ width\ \ El\ ancho\ del\ rect\u00E1ngulo.\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Dibuja\ el\ rect\u00E1ngulo\ en\ el\ lienzo\ si\ est\u00E1\ visible.\r\n\ Utiliza\ la\ clase\ `Canvas`\ para\ realizar\ el\ dibujo.\r\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\r\n\ Borra\ el\ rect\u00E1ngulo\ del\ lienzo\ si\ est\u00E1\ visible.\r\n\ Utiliza\ la\ clase\ `Canvas`\ para\ realizar\ el\ borrado.\r\n
+comment4.params=
+comment4.target=int\ getHeight()
+comment4.text=\r\n\ Obtiene\ la\ altura\ del\ rect\u00E1ngulo.\r\n\r\n\ @return\ La\ altura\ del\ rect\u00E1ngulo.\r\n
+comment5.params=
+comment5.target=int\ getWidth()
+comment5.text=\r\n\ Obtiene\ el\ ancho\ del\ rect\u00E1ngulo.\r\n\r\n\ @return\ El\ ancho\ del\ rect\u00E1ngulo.\r\n
+numComments=6

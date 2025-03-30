@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Ephemeral
+comment0.text=\r\n\ Clase\ que\ representa\ una\ part\u00EDcula\ que\ pierde\ velocidad\ en\ cada\ colisi\u00F3n\r\n\ y\ desaparece\ cuando\ su\ velocidad\ llega\ a\ 0,0.\r\n\ Hereda\ de\ la\ clase\ Particle.\r\n
+comment1.params=x\ y\ color\ isRed\ diameter\ speedX\ speedY\ originalX
+comment1.target=Ephemeral(int,\ int,\ java.lang.String,\ boolean,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ para\ crear\ una\ part\u00EDcula\ con\ colisiones\ especiales.\r\n\r\n\ @param\ x\ \ \ \ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ X\ (coordenada\ interna).\r\n\ @param\ y\ \ \ \ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ Y.\r\n\ @param\ color\ \ \ \ \ \ \ El\ color\ de\ la\ part\u00EDcula.\r\n\ @param\ isRed\ \ \ \ \ \ \ Indica\ si\ la\ part\u00EDcula\ es\ de\ color\ rojo.\r\n\ @param\ diameter\ \ \ \ El\ di\u00E1metro\ de\ la\ part\u00EDcula.\r\n\ @param\ speedX\ \ \ \ \ \ La\ velocidad\ en\ el\ eje\ X.\r\n\ @param\ speedY\ \ \ \ \ \ La\ velocidad\ en\ el\ eje\ Y.\r\n\ @param\ originalX\ \ \ La\ coordenada\ X\ original\ (puede\ ser\ negativa).\r\n
+comment2.params=containerWidth\ containerHeight\ lineX
+comment2.target=void\ move(int,\ int,\ int)
+comment2.text=\r\n\ Mueve\ la\ part\u00EDcula\ y\ maneja\ las\ colisiones\ con\ p\u00E9rdida\ de\ velocidad.\r\n\r\n\ @param\ containerWidth\ \ El\ ancho\ del\ contenedor.\r\n\ @param\ containerHeight\ La\ altura\ del\ contenedor.\r\n\ @param\ lineX\ \ \ \ \ \ \ \ \ \ \ La\ posici\u00F3n\ en\ X\ de\ la\ l\u00EDnea\ divisoria.\r\n
+comment3.params=
+comment3.target=void\ reduceSpeed()
+comment3.text=\r\n\ Reduce\ la\ velocidad\ de\ la\ part\u00EDcula\ en\ 1\ unidad\ en\ cada\ eje.\r\n\ Si\ la\ velocidad\ es\ positiva\ se\ reduce,\ si\ es\ negativa\ se\ aumenta.\r\n
+comment4.params=
+comment4.target=void\ checkIfShouldDisappear()
+comment4.text=\r\n\ Verifica\ si\ la\ part\u00EDcula\ debe\ desaparecer\ (velocidad\ 0,0).\r\n\ Si\ es\ as\u00ED,\ la\ marca\ como\ inactiva\ y\ la\ borra\ de\ la\ pantalla.\r\n
+comment5.params=
+comment5.target=boolean\ isActive()
+comment5.text=\r\n\ Indica\ si\ la\ part\u00EDcula\ est\u00E1\ activa\ (no\ ha\ desaparecido).\r\n\r\n\ @return\ true\ si\ la\ part\u00EDcula\ est\u00E1\ activa,\ false\ si\ ha\ desaparecido.\r\n
+comment6.params=speedX
+comment6.target=void\ setSpeedX(int)
+comment6.text=\r\n\ Establece\ la\ velocidad\ en\ el\ eje\ X.\r\n\ @param\ speedX\ La\ nueva\ velocidad\ en\ el\ eje\ X.\r\n
+comment7.params=speedY
+comment7.target=void\ setSpeedY(int)
+comment7.text=\r\n\ Establece\ la\ velocidad\ en\ el\ eje\ Y.\r\n\ @param\ speedY\ La\ nueva\ velocidad\ en\ el\ eje\ Y.\r\n
+numComments=8

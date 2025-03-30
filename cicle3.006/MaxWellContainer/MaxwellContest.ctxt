@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MaxwellContest
+comment0.text=\r\n\ Clase\ que\ resuelve\ el\ problema\ de\ Maxwell's\ Demon\ para\ un\ contenedor\ de\ part\u00EDculas.\r\n
+comment1.params=w\ h\ d\ r\ b\ particles
+comment1.target=double\ solve(int,\ int,\ int,\ int,\ int,\ int[][])
+comment1.text=\r\n\ Resuelve\ el\ problema\ de\ encontrar\ el\ tiempo\ m\u00EDnimo\ para\ que\ todas\ las\ part\u00EDculas\ rojas\r\n\ est\u00E9n\ en\ el\ lado\ izquierdo\ y\ las\ azules\ en\ el\ derecho\ del\ contenedor.\r\n\ \r\n\ @param\ w\ Ancho\ del\ contenedor\r\n\ @param\ h\ Altura\ del\ contenedor\r\n\ @param\ d\ Posici\u00F3n\ vertical\ de\ la\ divisi\u00F3n\ (pared\ divisoria)\r\n\ @param\ r\ N\u00FAmero\ de\ part\u00EDculas\ rojas\r\n\ @param\ b\ N\u00FAmero\ de\ part\u00EDculas\ azules\r\n\ @param\ particles\ Matriz\ de\ part\u00EDculas\ donde\ cada\ fila\ contiene\ [px,\ py,\ vx,\ vy]\r\n\ @return\ El\ tiempo\ m\u00EDnimo\ requerido,\ o\ -1.0\ si\ es\ imposible\r\n
+comment2.params=w\ h\ d\ px\ py\ vx\ vy\ isRed
+comment2.target=double\ findFlipTime(int,\ int,\ int,\ double,\ double,\ double,\ double,\ boolean)
+comment2.text=\r\n\ Encuentra\ el\ tiempo\ para\ que\ una\ part\u00EDcula\ cruce\ al\ lado\ correcto.\r\n\ \r\n\ @param\ w\ Ancho\ del\ contenedor\r\n\ @param\ h\ Altura\ del\ contenedor\r\n\ @param\ d\ Posici\u00F3n\ vertical\ de\ la\ divisi\u00F3n\r\n\ @param\ px\ Posici\u00F3n\ x\ inicial\ de\ la\ part\u00EDcula\r\n\ @param\ py\ Posici\u00F3n\ y\ inicial\ de\ la\ part\u00EDcula\r\n\ @param\ vx\ Velocidad\ x\ de\ la\ part\u00EDcula\r\n\ @param\ vy\ Velocidad\ y\ de\ la\ part\u00EDcula\r\n\ @param\ isRed\ Indica\ si\ la\ part\u00EDcula\ es\ roja\r\n\ @return\ Tiempo\ m\u00EDnimo\ para\ cruzar\ o\ infinito\ si\ es\ imposible\r\n
+comment3.params=px\ vx\ targetX\ w\ k
+comment3.target=double\ timeToReachX(double,\ double,\ double,\ int,\ int)
+comment3.text=\r\n\ Calcula\ el\ tiempo\ para\ alcanzar\ una\ posici\u00F3n\ x\ considerando\ reflejos.\r\n\ \r\n\ @param\ px\ Posici\u00F3n\ x\ inicial\r\n\ @param\ vx\ Velocidad\ x\r\n\ @param\ targetX\ Posici\u00F3n\ x\ objetivo\r\n\ @param\ w\ Ancho\ del\ contenedor\r\n\ @param\ k\ N\u00FAmero\ de\ reflejos\ a\ considerar\r\n\ @return\ Tiempo\ requerido\ o\ infinito\ si\ es\ imposible\r\n
+comment4.params=x0\ vx\ t\ w
+comment4.target=double\ calculateX(double,\ double,\ double,\ double)
+comment4.text=\r\n\ Calcula\ la\ posici\u00F3n\ x\ despu\u00E9s\ de\ un\ tiempo\ t\ considerando\ reflejos.\r\n\ \r\n\ @param\ x0\ Posici\u00F3n\ x\ inicial\r\n\ @param\ vx\ Velocidad\ x\r\n\ @param\ t\ Tiempo\ transcurrido\r\n\ @param\ w\ Ancho\ del\ contenedor\r\n\ @return\ Posici\u00F3n\ x\ despu\u00E9s\ del\ tiempo\ t\r\n
+comment5.params=y0\ vy\ t\ h
+comment5.target=double\ calculateY(double,\ double,\ double,\ int)
+comment5.text=\r\n\ Calcula\ la\ posici\u00F3n\ y\ despu\u00E9s\ de\ un\ tiempo\ t\ considerando\ reflejos.\r\n\ \r\n\ @param\ y0\ Posici\u00F3n\ y\ inicial\r\n\ @param\ vy\ Velocidad\ y\r\n\ @param\ t\ Tiempo\ transcurrido\r\n\ @param\ h\ Altura\ del\ contenedor\r\n\ @return\ Posici\u00F3n\ y\ despu\u00E9s\ del\ tiempo\ t\r\n
+comment6.params=x0\ vx\ w\ currentT\ isRed
+comment6.target=double\ findNextCorrectTime(double,\ double,\ double,\ double,\ boolean)
+comment6.text=\r\n\ Encuentra\ el\ pr\u00F3ximo\ tiempo\ en\ que\ la\ part\u00EDcula\ est\u00E1\ en\ el\ lado\ correcto.\r\n\ \r\n\ @param\ x0\ Posici\u00F3n\ x\ inicial\r\n\ @param\ vx\ Velocidad\ x\r\n\ @param\ w\ Ancho\ del\ contenedor\r\n\ @param\ currentT\ Tiempo\ actual\r\n\ @param\ isRed\ Indica\ si\ la\ part\u00EDcula\ es\ roja\r\n\ @return\ Pr\u00F3ximo\ tiempo\ v\u00E1lido\ o\ infinito\ si\ es\ imposible\r\n
+comment7.params=h\ w\ d\ b\ r\ particles
+comment7.target=void\ simulate(int,\ int,\ int,\ int,\ int,\ int[][])
+comment7.text=\r\n\ Simula\ el\ comportamiento\ de\ las\ part\u00EDculas\ en\ el\ contenedor\ y\ muestra\ la\ soluci\u00F3n.\r\n\ \r\n\ @param\ h\ Altura\ del\ contenedor\r\n\ @param\ w\ Ancho\ del\ contenedor\r\n\ @param\ d\ Posici\u00F3n\ vertical\ de\ la\ divisi\u00F3n\r\n\ @param\ b\ N\u00FAmero\ de\ part\u00EDculas\ azules\r\n\ @param\ r\ N\u00FAmero\ de\ part\u00EDculas\ rojas\r\n\ @param\ particles\ Matriz\ de\ part\u00EDculas\ donde\ cada\ fila\ contiene\ [px,\ py,\ vx,\ vy]\r\n
+numComments=8

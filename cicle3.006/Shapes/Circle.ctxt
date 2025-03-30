@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Circle
+comment0.text=\r\n\ Clase\ que\ representa\ un\ c\u00EDrculo\ en\ un\ lienzo.\r\n\ Hereda\ de\ la\ clase\ abstracta\ `Figure`\ y\ proporciona\ implementaciones\r\n\ para\ los\ m\u00E9todos\ `draw()`\ y\ `erase()`.\r\n
+comment1.params=x\ y\ color\ diameter
+comment1.target=Circle(int,\ int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ para\ crear\ un\ c\u00EDrculo\ con\ posici\u00F3n,\ color\ y\ di\u00E1metro\ espec\u00EDficos.\r\n\r\n\ @param\ x\ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ X.\r\n\ @param\ y\ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ Y.\r\n\ @param\ color\ \ \ \ El\ color\ del\ c\u00EDrculo.\r\n\ @param\ diameter\ El\ di\u00E1metro\ del\ c\u00EDrculo.\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Dibuja\ el\ c\u00EDrculo\ en\ el\ lienzo\ si\ est\u00E1\ visible.\r\n\ Utiliza\ la\ clase\ `Canvas`\ para\ realizar\ el\ dibujo.\r\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\r\n\ Borra\ el\ c\u00EDrculo\ del\ lienzo\ si\ est\u00E1\ visible.\r\n\ Utiliza\ la\ clase\ `Canvas`\ para\ realizar\ el\ borrado.\r\n
+comment4.params=
+comment4.target=int\ getDiameter()
+comment4.text=\r\n\ Obtiene\ el\ di\u00E1metro\ del\ c\u00EDrculo.\r\n\r\n\ @return\ El\ di\u00E1metro\ del\ c\u00EDrculo.\r\n
+numComments=5

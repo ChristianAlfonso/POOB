@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MaxwellContestCTest
+comment0.text=\r\n\ Clase\ de\ pruebas\ para\ la\ clase\ MaxwellContest.\r\n\ Esta\ prueba\ verifica\ el\ comportamiento\ del\ m\u00E9todo\ `solve`\ cuando\ las\ part\u00EDculas\ ya\ est\u00E1n\ ordenadas.\r\n
+comment1.params=
+comment1.target=void\ testAlreadySortedParticles()
+comment1.text=\r\n\ Prueba\ que\ verifica\ si\ el\ m\u00E9todo\ `solve`\ maneja\ correctamente\ el\ caso\ en\ el\ que\ las\ part\u00EDculas\ ya\ est\u00E1n\ ordenadas.\r\n\ En\ este\ caso,\ el\ tiempo\ necesario\ para\ ordenar\ las\ part\u00EDculas\ deber\u00EDa\ ser\ cero.\r\n
+numComments=2

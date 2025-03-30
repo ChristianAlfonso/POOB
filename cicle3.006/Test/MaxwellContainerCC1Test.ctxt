@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MaxwellContainerCC1Test
+comment0.text=\r\n\ Clase\ de\ pruebas\ para\ la\ clase\ MaxwellContainer.\r\n\ Esta\ clase\ prueba\ el\ comportamiento\ de\ los\ m\u00E9todos\ de\ MaxwellContainer.\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Configura\ el\ entorno\ antes\ de\ cada\ prueba.\r\n\ Inicializa\ el\ contenedor\ y\ lo\ hace\ invisible.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Limpia\ el\ entorno\ despu\u00E9s\ de\ cada\ prueba.\r\n\ Finaliza\ la\ simulaci\u00F3n\ y\ asegura\ que\ el\ contenedor\ est\u00E9\ invisible.\r\n
+comment3.params=
+comment3.target=void\ accordingGRshouldNotAddParticleInOtherPlayersArena()
+comment3.text=\r\n\ No\ deberia\ permitir\ agregar\ una\ particula\ con\ el\ color\ base\ en\ la\ arena\ del\ rival\r\n
+numComments=4

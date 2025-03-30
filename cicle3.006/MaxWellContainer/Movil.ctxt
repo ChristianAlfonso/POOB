@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Movil
+comment0.text=\r\n\ Clase\ que\ representa\ un\ agujero\ m\u00F3vil\ que\ se\ desplaza\ hasta\ llegar\ a\ un\ borde.\r\n\ Hereda\ de\ la\ clase\ Hole\ y\ a\u00F1ade\ funcionalidad\ de\ movimiento.\r\n
+comment1.params=x\ y\ color\ diameter\ capacity\ originalX
+comment1.target=Movil(int,\ int,\ java.lang.String,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ para\ crear\ un\ agujero\ m\u00F3vil.\r\n\r\n\ @param\ x\ \ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ X\ (coordenada\ interna).\r\n\ @param\ y\ \ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ Y.\r\n\ @param\ color\ \ \ \ \ El\ color\ del\ agujero.\r\n\ @param\ diameter\ \ El\ di\u00E1metro\ del\ agujero.\r\n\ @param\ capacity\ \ La\ capacidad\ m\u00E1xima\ de\ part\u00EDculas\ que\ el\ agujero\ puede\ atrapar.\r\n\ @param\ originalX\ La\ coordenada\ X\ original\ (puede\ ser\ negativa).\r\n
+comment2.params=containerWidth\ containerHeight
+comment2.target=void\ move(int,\ int)
+comment2.text=\r\n\ Mueve\ el\ agujero\ m\u00F3vil\ dentro\ del\ contenedor.\r\n\ Se\ detiene\ cuando\ llega\ a\ cualquier\ borde\ del\ contenedor.\r\n\r\n\ @param\ containerWidth\ \ El\ ancho\ del\ contenedor.\r\n\ @param\ containerHeight\ La\ altura\ del\ contenedor.\r\n
+comment3.params=
+comment3.target=boolean\ hasStopped()
+comment3.text=\r\n\ Indica\ si\ el\ agujero\ m\u00F3vil\ ha\ dejado\ de\ moverse\ por\ llegar\ a\ un\ borde.\r\n\r\n\ @return\ true\ si\ ha\ llegado\ a\ un\ borde\ y\ se\ ha\ detenido,\ false\ en\ caso\ contrario.\r\n
+comment4.params=particle
+comment4.target=void\ trapParticle(Particle)
+comment4.text=\r\n\ Sobrescribe\ el\ m\u00E9todo\ para\ atrapar\ part\u00EDculas,\ considerando\ el\ movimiento.\r\n\r\n\ @param\ particle\ La\ part\u00EDcula\ que\ se\ intenta\ atrapar.\r\n
+numComments=5

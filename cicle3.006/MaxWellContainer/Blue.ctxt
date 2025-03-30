@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Blue
+comment0.text=\r\n\ Clase\ que\ representa\ un\ demonio\ azul\ que\ solo\ permite\ el\ paso\ de\ part\u00EDculas\ azules.\r\n\ Hereda\ de\ la\ clase\ Demon\ y\ modifica\ el\ comportamiento\ de\ transferencia.\r\n
+comment1.params=x\ y\ color\ width\ height\ container
+comment1.target=Blue(int,\ int,\ java.lang.String,\ int,\ int,\ MaxwellContainer)
+comment1.text=\r\n\ Constructor\ para\ crear\ un\ demonio\ azul.\r\n\r\n\ @param\ x\ \ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ X.\r\n\ @param\ y\ \ \ \ \ \ \ \ \ La\ posici\u00F3n\ inicial\ en\ el\ eje\ Y.\r\n\ @param\ color\ \ \ \ \ El\ color\ del\ demonio\ (deber\u00EDa\ ser\ azul\ o\ similar).\r\n\ @param\ width\ \ \ \ \ El\ ancho\ del\ demonio.\r\n\ @param\ height\ \ \ \ La\ altura\ del\ demonio.\r\n\ @param\ container\ El\ contenedor\ donde\ se\ simula\ la\ arena.\r\n
+comment2.params=particle
+comment2.target=void\ transferParticle(Particle)
+comment2.text=\r\n\ Transfiere\ una\ part\u00EDcula\ solo\ si\ es\ azul\ (isRed\ \=\ false).\r\n\ Sobrescribe\ el\ m\u00E9todo\ de\ la\ clase\ padre\ para\ agregar\ esta\ restricci\u00F3n.\r\n\r\n\ @param\ particle\ La\ part\u00EDcula\ que\ se\ intenta\ transferir.\r\n
+comment3.params=particle
+comment3.target=boolean\ collidesWith(Particle)
+comment3.text=\r\n\ Verifica\ colisi\u00F3n\ con\ part\u00EDculas\ (mismo\ comportamiento\ que\ el\ demonio\ base).\r\n\ Se\ mantiene\ igual\ ya\ que\ la\ detecci\u00F3n\ de\ colisiones\ no\ cambia.\r\n
+numComments=4

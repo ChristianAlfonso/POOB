@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Demon
+comment0.text=\r\n\ Clase\ que\ implementa\ el\ demonio\ de\ Maxwell,\ responsable\ de\ separar\ part\u00EDculas\r\n\ entre\ los\ dos\ lados\ del\ contenedor\ seg\u00FAn\ su\ color\ (rojo/azul).\r\n\ \r\n\ <p>El\ demonio\ se\ representa\ visualmente\ como\ un\ rect\u00E1ngulo\ que\ puede\ moverse\r\n\ verticalmente\ y\ detectar\ colisiones\ con\ part\u00EDculas\ para\ transferirlas\ al\ lado\r\n\ correspondiente.</p>\r\n
+comment1.params=x\ y\ color\ width\ height\ container
+comment1.target=Demon(int,\ int,\ java.lang.String,\ int,\ int,\ MaxwellContainer)
+comment1.text=\r\n\ Constructor\ para\ crear\ un\ demonio\ en\ posici\u00F3n\ espec\u00EDfica.\r\n\ \r\n\ @param\ x\ Posici\u00F3n\ horizontal\ inicial\ (coordenada\ X)\r\n\ @param\ y\ Posici\u00F3n\ vertical\ inicial\ (coordenada\ Y)\r\n\ @param\ color\ Color\ del\ demonio\ (usado\ para\ representaci\u00F3n\ visual)\r\n\ @param\ width\ Ancho\ del\ rect\u00E1ngulo\ del\ demonio\r\n\ @param\ height\ Alto\ del\ rect\u00E1ngulo\ del\ demonio\r\n\ @param\ container\ Referencia\ al\ contenedor\ que\ contiene\ este\ demonio\r\n
+comment2.params=containerHeight
+comment2.target=void\ move(int)
+comment2.text=\r\n\ Mueve\ el\ demonio\ verticalmente\ dentro\ del\ contenedor\ con\ efecto\ rebote.\r\n\ \r\n\ @param\ containerHeight\ Altura\ total\ del\ contenedor\ para\ l\u00EDmite\ de\ rebote\r\n
+comment3.params=particle
+comment3.target=boolean\ collidesWith(Particle)
+comment3.text=\r\n\ Detecta\ colisi\u00F3n\ entre\ el\ demonio\ y\ una\ part\u00EDcula.\r\n\ \r\n\ @param\ particle\ Part\u00EDcula\ a\ verificar\ colisi\u00F3n\r\n\ @return\ true\ si\ hay\ superposici\u00F3n\ entre\ sus\ \u00E1reas,\ false\ en\ caso\ contrario\r\n
+comment4.params=particle
+comment4.target=void\ transferParticle(Particle)
+comment4.text=\r\n\ Transfiere\ part\u00EDculas\ al\ lado\ correspondiente\ seg\u00FAn\ su\ color.\r\n\ \r\n\ <p>Las\ part\u00EDculas\ rojas\ van\ a\ la\ izquierda\ y\ las\ azules\ a\ la\ derecha.\r\n\ Una\ vez\ transferidas,\ no\ pueden\ volver\ al\ lado\ original.</p>\r\n\ \r\n\ @param\ particle\ Part\u00EDcula\ a\ transferir\r\n
+comment5.params=
+comment5.target=int\ getYPosition()
+comment5.text=\r\n\ Obtiene\ la\ posici\u00F3n\ vertical\ actual\ del\ demonio.\r\n\ \r\n\ @return\ Coordenada\ Y\ en\ p\u00EDxeles\r\n
+comment6.params=
+comment6.target=MaxwellContainer\ getContainer()
+comment6.text=\r\n\ Obtiene\ el\ contenedor\ al\ que\ pertenece\ este\ demonio.\r\n\ \r\n\ @return\ Referencia\ al\ MaxwellContainer\ padre\r\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MaxwellContestTest
+comment0.text=\r\n\ Clase\ de\ pruebas\ para\ la\ clase\ MaxwellContest.\r\n\ Esta\ clase\ contiene\ pruebas\ unitarias\ que\ verifican\ el\ comportamiento\ del\ m\u00E9todo\ `solve`\r\n\ en\ diferentes\ escenarios.\r\n
+comment1.params=
+comment1.target=void\ shouldReturnZeroWhenParticlesAreAlreadySorted()
+comment1.text=\r\n\ Prueba\ que\ verifica\ si\ el\ m\u00E9todo\ `solve`\ devuelve\ 0.0\ cuando\ las\ part\u00EDculas\ ya\ est\u00E1n\ ordenadas.\r\n
+comment2.params=
+comment2.target=void\ shouldReturnImpossibleWhenParticleHasZeroXVelocity()
+comment2.text=\r\n\ Prueba\ que\ verifica\ si\ el\ m\u00E9todo\ `solve`\ devuelve\ -1.0\ cuando\ una\ part\u00EDcula\ tiene\ velocidad\ X\ igual\ a\ 0.\r\n
+comment3.params=
+comment3.target=void\ shouldReturnImpossibleWhenParticlesAreOutsideContainer()
+comment3.text=\r\n\ Prueba\ que\ verifica\ si\ el\ m\u00E9todo\ `solve`\ devuelve\ -1.0\ cuando\ las\ part\u00EDculas\ est\u00E1n\ fuera\ del\ contenedor.\r\n
+comment4.params=
+comment4.target=void\ shouldReturnPositiveTimeWhenParticlesHaveZeroYVelocity()
+comment4.text=\r\n\ Prueba\ que\ verifica\ si\ el\ m\u00E9todo\ `solve`\ devuelve\ un\ tiempo\ positivo\ cuando\ las\ part\u00EDculas\ tienen\ velocidad\ Y\ igual\ a\ 0.\r\n
+comment5.params=
+comment5.target=void\ shouldReturnImpossibleWhenParticlesHaveNegativeXVelocityAndCannotBeSorted()
+comment5.text=\r\n\ Prueba\ que\ verifica\ si\ el\ m\u00E9todo\ `solve`\ devuelve\ -1.0\ cuando\ las\ part\u00EDculas\ tienen\ velocidad\ X\ negativa\ y\ no\ pueden\ ser\ ordenadas.\r\n
+numComments=6

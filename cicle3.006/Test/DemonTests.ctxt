@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=DemonTests
+comment1.params=
+comment1.target=void\ setUp()
+comment10.params=
+comment10.target=void\ shouldNotAddDemonOutsideContainer()
+comment11.params=
+comment11.target=void\ shouldReturnCorrectDemonTypes()
+comment12.params=
+comment12.target=void\ shouldMoveVerticallyWithinBounds()
+comment2.params=
+comment2.target=void\ tearDown()
+comment3.params=
+comment3.target=void\ shouldTransferRedParticleToLeft()
+comment4.params=
+comment4.target=void\ shouldTransferBlueParticleToRight()
+comment5.params=
+comment5.target=void\ shouldNotTransferParticlesAlreadyInCorrectSide()
+comment6.params=
+comment6.target=void\ shouldTransferOnlyBlueParticles()
+comment7.params=
+comment7.target=void\ shouldNotTransferRedParticles()
+comment8.params=
+comment8.target=void\ shouldDisappearAfterTransferringParticle()
+comment9.params=
+comment9.target=void\ shouldTransferOnlyOneParticle()
+numComments=13

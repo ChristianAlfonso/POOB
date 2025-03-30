@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HoleTests
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ tearDown()
+comment3.params=
+comment3.target=void\ shouldNotTrapFlyingParticles()
+comment4.params=
+comment4.target=void\ shouldNotExceedCapacity()
+comment5.params=
+comment5.target=void\ shouldMaintainCapacityAfterStopping()
+comment6.params=
+comment6.target=void\ shouldNotAddHoleWithInvalidPosition()
+comment7.params=
+comment7.target=void\ shouldNotAddHoleWithZeroOrNegativeCapacity()
+comment8.params=
+comment8.target=void\ shouldReturnCorrectHoleData()
+numComments=9
